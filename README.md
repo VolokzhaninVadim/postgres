@@ -26,7 +26,7 @@ CREATE EXTENSION fuzzystrmatch;
 `sudo pacman -S dbeaver` 
 
 ## Настройки подключения 
-$HOME/.local/share/DBeaverData/workspace6/General/.dbeaver
+`$HOME/.local/share/DBeaverData/workspace6/General/.dbeaver`
 
 # Переменные окружения
 ```
