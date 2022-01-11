@@ -4,6 +4,7 @@ services:
   pg_db:
     build: .
     image: postgres
+    container_name: postgres
     restart: always
     environment:
       - POSTGRES_PASSWORD=${PG_PASSWORD}
