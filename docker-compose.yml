@@ -11,9 +11,9 @@ services:
       - POSTGRES_USER=${USER}
       - POSTGRES_DB=${USER}
     volumes:
-      - /mnt/0/postgres/:/var/lib/postgresql/data
-      - /mnt/0/backup/vvy_backup_pg/:/backup/
+      - ./config_postgres/:/var/lib/postgresql/data
+      - ./backup_pg/:/backup/
     ports:
-      - ${POSTGRES_PORT:-5432}:5432
+      - ${PG_PORT:-5432}:5432
 
 
